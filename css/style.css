@@ -1,0 +1,201 @@
+@import url(reset.css);
+
+/* ============= My Styles ============= */
+
+/* ========= Mods ========== */
+
+body {
+	font-family: 'Merriweather', serif;
+	color: #ECECEC;
+	line-height: 1.6;
+	background-color: #2B2B2B;
+	font-size: 16px;
+}
+
+.sub-title {
+	font-size: 51px;
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 70px;
+}
+
+.main-block {
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.pri-btn {
+	display: block;
+	width: 200px;
+	height: 60px;
+	border: 2px solid #CCAF52;
+	color: #CCAF52;
+	font-size: 22px;
+	text-align: center;
+	line-height: 60px;
+	text-decoration: none;
+}
+
+/* ========= Mods end ========== */
+
+.wrapper {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #2B2B2B;
+}
+
+
+
+/* ========= navbar ========== */
+
+.navbar .home a {
+	color: #CCAF52;
+}
+
+.header {
+	width: 100%;
+	margin: 0 auto;	
+	background-image: url(../img/bg.png);
+	height: 1200px;
+}
+
+.navbar {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 150px;
+	box-shadow: 0 12px 15px rgb(0 0 0 / 0.9);
+	height: 110px;
+	background-color: #151515;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo img {
+	width: 105px;
+	height: 48px;
+}
+
+.navbar ul {
+	display: flex;
+}
+
+.navbar li a {
+	color: #ffff;
+	text-decoration: none;
+	font-size: 18px;
+	margin-left: 102px;
+}
+
+.navbar li a:hover {
+	color: #CCAF52;
+}
+
+/* ========= text ========== */
+
+/*
+.header-text {
+	display: flex;
+}
+
+.header-text img {
+	width: 600px;
+	height: 100%;
+}
+
+.header-text h1 {
+	font-size: 50px;
+	font-weight: 900;
+
+}
+
+.header-text p {
+	font-size: 20px;
+}
+
+.pri-btn {
+	margin: 0 auto;
+}
+*/
+
+/* ========= Home page ========== */
+
+.home {
+	margin: 0 auto;
+	padding: 0 150px;
+}
+
+.home-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-box h1 {
+	padding-top: 240px;
+	font-size: 60px;
+	font-weight: 900;
+	letter-spacing: 5px;
+}
+
+.home-box img {
+	width: 550px;
+	height: 100%;
+}
+
+.home-box2 p {
+	padding-bottom: 35px;
+	font-size: 20px;
+	width: 100%;
+	line-height: 2;
+}
+
+.home-box3 a {
+	margin-top: 10px;
+	margin: 0 auto;
+}
+
+
+/* ========= About page ========== */
+
+.about {
+	width: 100%;
+	margin: 0 auto;
+	background-image: linear-gradient(transparent, #2B2B2B);
+	display: flex;
+}
+
+.about-box {
+	border-right: 2px solid #ECECEC;
+	width: 55%;
+}	
+
+.about-box h2 {
+	font-size: 35px;
+	padding-bottom: 60px;
+}
+
+.about-box p {
+	padding-bottom: 80px;
+	line-height: 3;
+}
+
+.about-box2 {
+	display: flex;
+	flex-direction: column;
+	align-items: space-between;
+}
+
+.about-box2 img {
+	width: 368px;
+	height: 167.55px;
+}
+
+.about-box2 li {
+	display: flex;
+	list-style-type: none;
+}
+
+.about-box2 a {
+	margin: 0 auto;
+}
